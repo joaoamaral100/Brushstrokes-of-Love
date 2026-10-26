@@ -1,0 +1,29 @@
+BRUSHSTROKES OF LOVE — DEPLOY VERCEL
+
+Entrada: index.html. Site estático, sem instalação ou etapa de build.
+Abra index.html diretamente no navegador ou sirva esta pasta por HTTP.
+
+GITHUB / VERCEL
+Envie o conteúdo inteiro desta pasta para a raiz do repositório GitHub.
+Na Vercel, importe o repositório e use Framework Preset: Other.
+Root Directory: a pasta que contém index.html.
+Build Command: vazio. Output Directory: . (a própria pasta).
+Se enviar DEPLOY_VERCEL como subpasta, selecione-a como Root Directory.
+
+LINKS DE CHECKOUT
+Abra site-config.js e preencha os campos existentes:
+CHECKOUT_BASIC_URL: endereço real do Essential (£14.90).
+CHECKOUT_COMPLETE_URL: endereço real do Complete (£24.90).
+Mantenha as aspas e vírgulas do arquivo.
+Os campos estão vazios; nenhum checkout foi inventado.
+
+META PIXEL
+ID 28954247230907460 em analytics.js.
+PageView global e ViewContent da página de vendas, uma vez por documento.
+InitiateCheckout somente em links configurados válidos, com GBP e valor do plano.
+CTAs internos e avisos de checkout indisponível não disparam esse evento.
+Não há parâmetros manuais com informações pessoais.
+O SDK da Meta exige internet; o conteúdo e os assets do site são locais.
+
+Nenhuma dependência de caminhos absolutos, npm, framework ou servidor de aplicação.
+Não envie os PDFs pagos nesta pasta pública.
